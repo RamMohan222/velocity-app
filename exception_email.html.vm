@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Error report &mdash; MyApp</title>
+        <style type="text/css">
+            h1 {
+                color               : white;
+                background-color    : #525D76;
+                font-size           : x-large;
+            }
+            h2 {
+                color               : white;
+                background-color    : #525D76;
+                font-size           : large;
+            }
+            strong {
+                color               : white;
+                background-color    : #525D76;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>$title</h1>
+        <hr noshade="noshade" size="1" />
+        <pre>$stackTrace</pre>
+        <p>
+            <strong>Note:</strong>
+            The full stack trace of the root cause is available in the logs.
+        </p>
+        <hr noshade="noshade" size="1" />
+        <h2>Error report &mdash; MyApp</h2>
+    </body>
+</html>
